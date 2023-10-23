@@ -37,7 +37,7 @@ const PageSpaces = () => {
 
   sizesOrdered.map((size) => {
     if (cssActive) {
-      desktopSizes += `/*paddings*/\n.pt-md-${size} {\n padding-top:${size}px !important;\n}\n.pb-md-${size} {\n padding-bottom:${size}px !important;\n}\n.py-md-${size} {\n padding-block:${size}px !important;\n}\n.px-md-${size} {\n padding-inline:${size}px !important;\n}\n/*margins*/\n.mt-${size} {\n margin-top:${size}px !important;\n}\n.mb-${size} {\n margin-bottom:${size}px !important;\n}\n.my-${size} {\n margin-block:${size}px !important;\n}\n.mx-${size} {\n margin-inline:${size}px !important;\n}\n`;
+      desktopSizes += `/*paddings*/\n.pt-md-${size} {\n padding-top:${size}px !important;\n}\n.pb-md-${size} {\n padding-bottom:${size}px !important;\n}\n.py-md-${size} {\n padding-block:${size}px !important;\n}\n.px-md-${size} {\n padding-inline:${size}px !important;\n}\n/*margins*/\n.mt-md-${size} {\n margin-top:${size}px !important;\n}\n.mb-md-${size} {\n margin-bottom:${size}px !important;\n}\n.my-md-${size} {\n margin-block:${size}px !important;\n}\n.mx-md-${size} {\n margin-inline:${size}px !important;\n}\n`;
     } else {
       desktopSizes += `.fs-md-${size} {\n font-size:$fs-${size};\n }\n`;
     }
