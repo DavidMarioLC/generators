@@ -78,7 +78,7 @@ ${mobileSizes}
 `;
 
   return (
-    <main className="max-w-7xl mx-auto relative">
+    <main className="max-w-7xl mx-auto relative overflow-hidden">
       <div className="px-5 pt-5 md:text-center md:pt-20 md:pb-14 relative">
         <h1 className="text-gradient text-xl md:text-4xl inline-block">
           <ArrowDecoration className="hidden md:block position-left" />
